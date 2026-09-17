@@ -27,7 +27,7 @@
 ├── .env.example # шаблон для ключей GigaChat  
 ├── .gitignore  
 └── data/  
-    └── .env # реальные ключи (не в Git)  
+&nbsp;&nbsp;&nbsp;&nbsp;└── .env # реальные ключи (не в Git)  
 
 ## Установка
 
