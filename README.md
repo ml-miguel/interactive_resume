@@ -20,20 +20,17 @@
 - NumPy
 
 ## Структура проекта
-.
-├── interactive_resume.py # основной скрипт
-├── projects.json # база проектов (описания, стек, метрики)
-├── requirements.txt
-├── .env.example # шаблон для ключей GigaChat
-├── .gitignore
-└── data/
-└── .env # реальные ключи (не в Git)
-
-text
+.  
+├── interactive_resume.py # основной скрипт  
+├── projects.json # база проектов (описания, стек, метрики)  
+├── requirements.txt  
+├── .env.example # шаблон для ключей GigaChat  
+├── .gitignore  
+└── data/  
+└── .env # реальные ключи (не в Git)  
 
 ## Установка
 
-bash
 pip install -r requirements.txt
 Настройка
 При первом запуске скрипт запросит ключи GigaChat и сохранит их в data/.env:
@@ -46,7 +43,7 @@ Scope — оставьте GIGACHAT_API_PERS (для физических лиц
 
 Альтернативно можно создать data/.env вручную на основе data/.env.example.
 
-Запуск
+## Запуск
 bash
 python interactive_resume.py
 Пример сессии:
