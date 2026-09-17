@@ -32,6 +32,6 @@
         "description": "RAG-агент, который отвечает на вопросы о проектах кандидата: находит релевантные проекты по эмбеддингам и генерирует ответ через GigaChat. Демонстрирует полный пайплайн retrieval-augmented generation.",
         "stack": "Python, sentence-transformers, scikit-learn, LangChain, GigaChat API",
         "result": "Интерактивная база знаний о проектах с семантическим поиском",
-        "link": "https://github.com/ml-miguel/interactive-resume"
+        "link": "https://github.com/ml-miguel/interactive_resume"
     }
 ]
