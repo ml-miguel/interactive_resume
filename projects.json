@@ -1,0 +1,37 @@
+[
+    {
+        "name": "IMDB Reviews Classifier",
+        "description": "Модель для определения тональности отзывов на основе DistilBERT (Hugging Face). Точность 90.48% на тестовой выборке.",
+        "stack": "PyTorch, Hugging Face Transformers, CUDA (Colab)",
+        "result": "Точность 90.48%",
+        "link": "https://github.com/ml-miguel/imdb_reviews"
+    },
+    {
+        "name": "GigachatResumeAgent",
+        "description": "Агент на GigaChat + LangChain, который анализирует резюме и сравнивает с вакансией, формируя отчёт с рекомендацией.",
+        "stack": "GigaChat API, LangChain, Python",
+        "result": "Автоматизация первичного скрининга кандидатов",
+        "link": "https://github.com/ml-miguel/gigachat-resume-agent"
+    },
+    {
+        "name": "MNIST Classifier",
+        "description": "Нейросеть для распознавания рукописных цифр.",
+        "stack": "PyTorch, torchvision, MNIST",
+        "result": "Точность 97.46% на тестовой выборке",
+        "link": "in future updates"
+    },
+    {
+        "name": "Bert Simplified Classifier",
+        "description": "Мини-BERT с нуля: классификация типов слов и предсказание замаскированного слова.",
+        "stack": "PyTorch, numpy",
+        "result": "Точность 100% на тестовой выборке",
+        "link": "in future updates"
+    },
+	{
+        "name": "Interactive Resume (RAG Agent)",
+        "description": "RAG-агент, который отвечает на вопросы о проектах кандидата: находит релевантные проекты по эмбеддингам и генерирует ответ через GigaChat. Демонстрирует полный пайплайн retrieval-augmented generation.",
+        "stack": "Python, sentence-transformers, scikit-learn, LangChain, GigaChat API",
+        "result": "Интерактивная база знаний о проектах с семантическим поиском",
+        "link": "https://github.com/ml-miguel/interactive-resume"
+    }
+]
